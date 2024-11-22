@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Libros e Imágenes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="item" class="ion-text-center">
+    <ion-card-header>
+      <ion-card-title>{{ item.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <img *ngIf="item.imageType === 'dog'" [src]="item.imageUrl" alt="Imagen del Perro" class="large-image" />
+      <img *ngIf="item.imageType === 'robot'" [src]="item.imageUrl" alt="Imagen del Robot" class="large-image" />
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="full" (click)="saveItem()">Guardar en Firebase</ion-button>
+</ion-content>
+
