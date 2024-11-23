@@ -38,4 +38,4 @@ Se verificó que se instale correcatmente la App, incluyeando el icono y la Spla
 ![image](https://github.com/user-attachments/assets/0b9f341d-198e-49bf-ba1e-1ea0eff52ef8)
 
 
-
+[**APK Finalizada**](https://github.com/franciscocaero/API-Libro-Robot/blob/4d3e0ebf03f9b80e5b3a7f4ad4086dc29d838dbb/app-debug.apk)
