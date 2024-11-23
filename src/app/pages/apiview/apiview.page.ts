@@ -4,7 +4,7 @@ import { FirebaseService } from 'src/app/services/firebase.service';
 
 @Component({
   selector: 'app-apiview',
-  templateUrl: `./apiview.page.html`,
+  templateUrl: './apiview.page.html',
   styleUrls: ['./apiview.page.scss'],
 })
 export class BookListComponent implements OnInit {
@@ -13,6 +13,7 @@ export class BookListComponent implements OnInit {
   constructor(private apiService: APIService, private firebaseService: FirebaseService) {}
 
   ngOnInit(): void {
+    
     this.loadRandomBookAndImage();
   }
 
@@ -48,6 +49,7 @@ export class BookListComponent implements OnInit {
     }
   }
 }
+
 
 
 

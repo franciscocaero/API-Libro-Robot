@@ -14,6 +14,11 @@
       <img *ngIf="item.imageType === 'robot'" [src]="item.imageUrl" alt="Imagen del Robot" class="large-image" />
     </ion-card-content>
   </ion-card>
+  
+
+  <ion-button expand="full" (click)="loadRandomBookAndImage()">Recargar</ion-button>
+
   <ion-button expand="full" (click)="saveItem()">Guardar en Firebase</ion-button>
 </ion-content>
+
 
